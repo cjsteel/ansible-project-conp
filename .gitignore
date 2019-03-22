@@ -1,0 +1,4 @@
+roles/*
+#!roles/cjsteel.model
+*.pyc
+.venv

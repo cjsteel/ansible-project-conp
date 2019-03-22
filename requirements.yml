@@ -1,0 +1,21 @@
+# Manually install with: `ansible-galaxy install -r requirements.yml`
+
+#- src: git@github.com:cjsteel/ansible-role-virtualbox-revised.git
+#  version: 1.3.0
+#  name: cjsteel.virtualbox
+
+- src: https://github.com/cjsteel/ansible-role-model.git
+  # version: 0.0.1
+  name: cjsteel.model
+
+- src: https://github.com/cjsteel/ansible-role-providers.git
+  # version: 0.0.1
+  name: cjsteel.providers
+
+- src: https://github.com/cjsteel/ansible-role-pip.git
+  # version: 0.0.1
+  name: cjsteel.pip
+
+#- src: https://github.com/weareinteractive/ansible-users
+#  version: 1.11.1
+#  name: weareinteractive.users
